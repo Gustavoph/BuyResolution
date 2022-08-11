@@ -9,7 +9,7 @@ export function Login() {
       px="2rem"
       width="100%"
       height="100vh"
-      bgColor="gray.900"
+      bgColor="gray.800"
       display={{ base: 'flex', lg: 'block' }}
     >
       <Flex

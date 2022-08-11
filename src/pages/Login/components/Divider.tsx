@@ -10,17 +10,17 @@ export function Divider() {
         width: '100%',
         marginTop: '2rem',
         marginBottom: '2rem',
-        color: '#fff',
+        color: '#28272f',
         '&:before': {
           content: '""',
           width: '100%',
-          borderTop: '1px solid #fff',
+          borderTop: '1px solid #28272f',
           marginRight: '0.5rem',
         },
         '&:after': {
           content: '""',
           width: '100%',
-          borderTop: '1px solid #fff',
+          borderTop: '1px solid #28272f',
           marginLeft: '0.5rem',
         },
       }}

@@ -35,7 +35,7 @@ export function Market() {
         width="100%"
         height="72px"
         alignItems="center"
-        backgroundColor="gray.700"
+        backgroundColor="gray.800"
       >
         <Flex
           width="100%"
@@ -77,17 +77,17 @@ export function Market() {
                     />
                   }
                 />
-                <MenuList bgColor="gray.700" border="none" marginTop="1rem">
+                <MenuList bgColor="gray.800" border="none" marginTop="1rem">
                   <MenuItem
                     py="1rem"
                     icon={<IoMdPerson size={20} color="#00875F" />}
                     color="white"
                     _hover={{
-                      background: 'gray.700',
+                      background: 'gray.800',
                       filter: 'brightness(0.8)',
                     }}
                     _focus={{
-                      background: 'gray.700',
+                      background: 'gray.800',
                       filter: 'brightness(0.8)',
                     }}
                   >
@@ -99,11 +99,11 @@ export function Market() {
                     icon={<BiHistory size={20} color="#00875F" />}
                     color="white"
                     _hover={{
-                      background: 'gray.700',
+                      background: 'gray.800',
                       filter: 'brightness(0.8)',
                     }}
                     _focus={{
-                      background: 'gray.700',
+                      background: 'gray.800',
                       filter: 'brightness(0.8)',
                     }}
                   >
@@ -115,11 +115,11 @@ export function Market() {
                     icon={<IoMdCloseCircleOutline size={20} color="#00875F" />}
                     color="white"
                     _hover={{
-                      background: 'gray.700',
+                      background: 'gray.800',
                       filter: 'brightness(0.8)',
                     }}
                     _focus={{
-                      background: 'gray.700',
+                      background: 'gray.800',
                       filter: 'brightness(0.8)',
                     }}
                   >
@@ -149,14 +149,14 @@ export function Market() {
               </Text>
             </Text>
 
-            <InputBase bgColor="gray.700" />
+            <InputBase bgColor="gray.800" />
           </Flex>
 
           <SimpleGrid columns={[1, 1, 1, 2]} spacing={10} pt="2rem">
             <Flex
               p="0.6rem"
               height="150px"
-              bgColor="gray.700"
+              bgColor="gray.800"
               borderRadius="5px"
             >
               <Flex pr="0.6rem">
@@ -176,7 +176,7 @@ export function Market() {
             <Flex
               p="0.6rem"
               height="150px"
-              bgColor="gray.700"
+              bgColor="gray.800"
               borderRadius="5px"
             >
               <Image src={ProductImg} alt="" borderRadius="5px" />
@@ -184,7 +184,7 @@ export function Market() {
             <Flex
               p="0.6rem"
               height="150px"
-              bgColor="gray.700"
+              bgColor="gray.800"
               borderRadius="5px"
             >
               <Image src={ProductImg} alt="" borderRadius="5px" />
@@ -192,7 +192,7 @@ export function Market() {
             <Flex
               p="0.6rem"
               height="150px"
-              bgColor="gray.700"
+              bgColor="gray.800"
               borderRadius="5px"
             >
               <Image src={ProductImg} alt="" borderRadius="5px" />

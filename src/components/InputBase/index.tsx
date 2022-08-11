@@ -29,10 +29,10 @@ export function InputComponent(
           ref={ref}
           color="white"
           borderWidth="1px"
-          borderColor="gray.900"
+          borderColor="gray.800"
           errorBorderColor="red.600"
           focusBorderColor="green.500"
-          _hover={{ border: 'gray.900' }}
+          _hover={{ border: 'gray.800' }}
         />
 
         {rightIcon && <InputRightElement>{rightIcon}</InputRightElement>}

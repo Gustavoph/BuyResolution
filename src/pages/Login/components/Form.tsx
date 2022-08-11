@@ -38,14 +38,14 @@ export function FormLogin() {
       autoComplete="off"
       bgColor="gray.700"
       borderRadius="5px"
-      p={['4rem 3rem', '6rem 4rem']}
-      width={{ base: 'auto', lg: '500px' }}
+      p={['3rem', '4rem']}
+      width={{ base: 'auto', lg: '480px' }}
       onSubmit={handleSubmit(handleLogin)}
     >
       <VStack width="100%" spacing="4">
         <InputBase
           type="email"
-          bgColor="gray.900"
+          bgColor="gray.800"
           placeholder="E-mail"
           {...register('email')}
           error={errors.email?.message}
@@ -54,7 +54,7 @@ export function FormLogin() {
 
         <InputBase
           type="password"
-          bgColor="gray.900"
+          bgColor="gray.800"
           placeholder="Senha"
           {...register('password')}
           error={errors.password?.message}
