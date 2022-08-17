@@ -1,11 +1,11 @@
 import {
+  Text,
+  Flex,
   Input,
   InputGroup,
   InputProps,
   InputLeftElement,
   InputRightElement,
-  Text,
-  Flex,
 } from '@chakra-ui/react'
 
 import { ReactElement, forwardRef } from 'react'
@@ -27,7 +27,7 @@ export function InputComponent(
         <Input
           {...rest}
           ref={ref}
-          color="white"
+          color="text.title"
           borderWidth="1px"
           borderColor="gray.800"
           errorBorderColor="red.600"

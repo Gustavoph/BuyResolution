@@ -4,6 +4,7 @@ export function Divider() {
   return (
     <Flex
       flexDir="row"
+      p="1rem"
       css={{
         display: 'flex',
         alignItems: 'center',
@@ -24,8 +25,6 @@ export function Divider() {
           marginLeft: '0.5rem',
         },
       }}
-    >
-      OU
-    </Flex>
+    ></Flex>
   )
 }

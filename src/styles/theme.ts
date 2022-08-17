@@ -36,6 +36,14 @@ const colors = {
     800: '#121214',
     900: '#09090A',
   },
+  icon: '#505059',
+  background: '#121214',
+  text: {
+    base: '#C4C4CC',
+    title: '#E1E1E6',
+    support: '#8D8D99',
+    placeholder: '#7C7C8A',
+  },
 }
 
 const breakpoints = {

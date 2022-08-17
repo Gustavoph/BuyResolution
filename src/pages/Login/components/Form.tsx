@@ -77,7 +77,13 @@ export function FormLogin() {
 
             <Divider />
 
-            <Button size="lg" width="100%">
+            <Button
+              size="lg"
+              width="100%"
+              color="white"
+              bgColor="gray.600"
+              colorScheme="gray.600"
+            >
               Criar Conta
             </Button>
           </VStack>
