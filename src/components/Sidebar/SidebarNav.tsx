@@ -1,10 +1,12 @@
 import { Stack } from '@chakra-ui/react'
+
 import {
-  RiContactsLine,
-  RiDashboardLine,
-  RiGitMergeFill,
-  RiInputMethodLine,
-} from 'react-icons/ri'
+  BiCog,
+  BiExit,
+  BiBeer,
+  BiHistory,
+  BiBookmarkHeart,
+} from 'react-icons/bi'
 
 import { NavLink } from './NavLink'
 import { NavSection } from './NavSection'
@@ -13,19 +15,22 @@ export function SidebarNav() {
   return (
     <Stack spacing="12" align="flex-start">
       <NavSection title="GERAL">
-        <NavLink to="/mercado/bebidas" icon={RiDashboardLine}>
+        <NavLink to="/bebidas" icon={BiBeer}>
           Bebidas
         </NavLink>
-        <NavLink to="/users" icon={RiContactsLine}>
-          Usuários
+        <NavLink to="/favoritos" icon={BiBookmarkHeart}>
+          Favoritos
         </NavLink>
       </NavSection>
-      <NavSection title="AUTOMAÇÃO">
-        <NavLink to="/forms" icon={RiInputMethodLine}>
-          Formulários
+      <NavSection title="PERFIL">
+        <NavLink to="/historico" icon={BiHistory}>
+          Histórico
         </NavLink>
-        <NavLink to="/automation" icon={RiGitMergeFill}>
-          Automação
+        <NavLink to="/forms" icon={BiCog}>
+          Configurações
+        </NavLink>
+        <NavLink to="/forms" icon={BiExit}>
+          Sair
         </NavLink>
       </NavSection>
     </Stack>

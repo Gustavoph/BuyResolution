@@ -64,5 +64,52 @@
       "description":"Produto para maiores de 18 anos",
       "url": "https://static-images.ifood.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202204051646_3btggyp48k3.jpg?imwidth=128"
     }
+  ],
+  "favorites": [
+    {
+      "id":"1",
+      "value":7,
+      "stock":10,
+      "name":"Cerveja Amstel Lata 350ml",
+      "description":"Produto para maiores de 18 anos",
+      "url": "https://static-images.ifood.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202204051646_3btggyp48k3.jpg?imwidth=128"
+    },
+    {
+      "id":"2",
+      "value":7,
+      "stock":3,
+      "name":"Cerveja Amstel Lata 350ml",
+      "description":"Produto para maiores de 18 anos",
+      "url": "https://static-images.ifood.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202204051646_3btggyp48k3.jpg?imwidth=128"
+    }
+  ],
+  "history": [
+    {
+      "id":"1",
+      "value":7,
+      "quant": 2,
+      "name":"Cerveja Amstel Lata 350ml",
+      "description":"Produto para maiores de 18 anos",
+      "url": "https://static-images.ifood.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202204051646_3btggyp48k3.jpg?imwidth=128",
+      "date": "2022-08-18T12:37:15.394Z"
+    },
+    {
+      "id":"2",
+      "value":7,
+      "quant": 2,
+      "name":"Cerveja Amstel Lata 350ml",
+      "description":"Produto para maiores de 18 anos",
+      "url": "https://static-images.ifood.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202204051646_3btggyp48k3.jpg?imwidth=128",
+      "date": "2022-08-14T12:37:15.394Z"
+    },
+    {
+      "id":"3",
+      "value":7,
+      "quant": 2,
+      "name":"Cerveja Amstel Lata 350ml",
+      "description":"Produto para maiores de 18 anos",
+      "url": "https://static-images.ifood.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202204051646_3btggyp48k3.jpg?imwidth=128",
+      "date": "2022-07-18T12:37:15.394Z"
+    }
   ]
 }

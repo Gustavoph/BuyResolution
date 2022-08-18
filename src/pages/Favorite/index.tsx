@@ -1,13 +1,13 @@
 import { useQuery } from '@tanstack/react-query'
-import { Flex, Spinner, SimpleGrid } from '@chakra-ui/react'
+import { Flex, SimpleGrid, Spinner } from '@chakra-ui/react'
 
+import { Product } from '../../context'
 import { Title } from '../../components/Title'
-import { getProducts } from '../../services/query'
-import { Product } from '../../context/CartContext'
+import { getFavorites } from '../../services/query'
 import { ProductCard } from '../../components/ProductCard'
 
-export function Market() {
-  const { data, isLoading } = useQuery<Product[]>(['products'], getProducts, {
+export function Favorite() {
+  const { data, isLoading } = useQuery<Product[]>(['favorites'], getFavorites, {
     staleTime: 60 * 1000 * 10,
   })
 
@@ -20,8 +20,8 @@ export function Market() {
   }
 
   return (
-    <Flex flex="1" flexDir="column">
-      <Title name="Bebidas" />
+    <Flex flex="1" flexDir="column" p="8">
+      <Title name="Favoritos" />
 
       <SimpleGrid
         spacing={4}

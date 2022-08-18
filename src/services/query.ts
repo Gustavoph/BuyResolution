@@ -9,3 +9,17 @@ export async function getProducts() {
     .then((res) => res.data)
     .catch((error) => error)
 }
+
+export async function getFavorites() {
+  return api
+    .get('/favorites')
+    .then((res) => res.data)
+    .catch((error) => error)
+}
+
+export async function getHistory() {
+  return api
+    .get('/history')
+    .then((res) => res.data)
+    .catch((error) => error)
+}
